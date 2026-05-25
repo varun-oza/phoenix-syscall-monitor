@@ -1,0 +1,1 @@
+savedcmd_/root/phoenix_test/kernel_module/syscall_monitor.mod := printf '%s\n'   syscall_monitor.o | awk '!x[$$0]++ { print("/root/phoenix_test/kernel_module/"$$0) }' > /root/phoenix_test/kernel_module/syscall_monitor.mod

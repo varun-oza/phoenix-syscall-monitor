@@ -1,0 +1,1 @@
+savedcmd_/root/phoenix_test/kernel_module/syscall_monitor.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /root/phoenix_test/kernel_module/syscall_monitor.ko /root/phoenix_test/kernel_module/syscall_monitor.o /root/phoenix_test/kernel_module/syscall_monitor.mod.o
